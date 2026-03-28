@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const ACCESS_TOKEN = h4SkDvpv3oPdxVthLM/Ohh1EZZzPThRlRdMK/ViQCGjRAzaG6HF1eh86EqR0LZ5JwrefvwsbInB5u/pL9mPylHF08fBZliJvjekoCXst0fHTP/jOiomGdyuxpfV/PG/eI0KihWme1oAxn7SeVpWuFAdB04t89/1O/w1cDnyilFU=;
+const ACCESS_TOKEN = "sHzNZQUn5/C7jKjaJAIWkFfBF9Wbj2rzIvq0h4ivP2bS8xqHwZZXJZX2CRcAHSOKwrefvwsbInB5u/pL9mPylHF08fBZliJvjekoCXst0fH7qx8/CE7oP5TKhNYTB4Cn7gz21in6ja4pZ6UxFcyUYgdB04t89/1O/w1cDnyilFU=";
 
 app.post("/webhook", async (req, res) => {
   const events = req.body.events;
