@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const ACCESS_TOKEN = "ここにアクセストークン";
+const ACCESS_TOKEN = droQfnQ5CkrdnFaCGaVNtKa5O9VzbvCHhvYWEndBO1yHlVUQiPLkHg+iY84xrVNNwrefvwsbInB5u/pL9mPylHF08fBZliJvjekoCXst0fG834+/NDMVkSWpLzbSS9DeE9udgxy6Pl6fmEdEt3nMCAdB04t89/1O/w1cDnyilFU=;
 
 app.post("/webhook", async (req, res) => {
   const events = req.body.events;
